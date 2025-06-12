@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginHorizontal="20dp"
+    android:padding="4dp"
+    android:layout_marginVertical="10dp"
     android:background="@drawable/item_background"
     android:orientation="vertical">
 
@@ -27,7 +28,15 @@
         android:id="@+id/tvDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="31 мая 12:45"
+        android:text="31 мая"
+        android:textColor="@color/black"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12:45"
         android:textColor="@color/black"
         android:textSize="10sp" />
 
